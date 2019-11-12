@@ -3,7 +3,7 @@
 | **Project Goal**            | Start programming your Argon, read sensor data, and leverage the device cloud.                         |
 | --------------------------- | --------------------------------------------------------------------------------------------------------- |
 | **What you’ll learn**       | How to interact with sensors, using Particle variables, cloud functions and publish/subscribe.                               |
-| **Tools you’ll need**       | Access to the internet for build.particle.io and console.particle.io. Plus the Particle CLI, Particle Workbench, a Particle Argon, and Grove Starter Kit for Particle Mesh |
+| **Tools you’ll need**       | Access to the Internet for build.particle.io and console.particle.io. Plus the Particle CLI, Particle Workbench, a Particle Argon, and Grove Starter Kit for Particle Mesh |
 | **Time needed to complete** | 60 minutes                                                                                                |
 
 In this session, you'll explore the Particle ecosystem via an Argon-powered Grove Starter Kit for Particle Mesh with several sensors! If you get stuck at any point during this session, [click here for the completed, working source](https://go.particle.io/shared_apps/5d7bb4fe1abb3a0016bd4127). If you pull this sample code into Workbench, don't forget to install the relevant libraries using the instructions below!
@@ -369,7 +369,7 @@ In addition to viewing published messages from the console, you can subscribe to
 
 ![](./images/02/light-cli.gif)
 
-## Working with Bluetooth on Particle Devices
+## Bonus: Working with Bluetooth on Particle Devices
 
 For the last section of this lab, we'll explore using BLE to advertise data from your device. Specifically, we'll use BLE to advertise the uptime, WiFi signal strength and free memory on your device, which you'll then read from a browser using Web BLE and Chrome.
 

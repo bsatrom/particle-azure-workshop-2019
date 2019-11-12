@@ -1,7 +1,7 @@
 module.exports = {
   base: '/',
   themeConfig: {
-    repo: 'particle-iot/roadshow-workshop-2019',
+    repo: 'particle-iot/particle-azure-workshop-2019',
     docsDir: 'content',
     editLinks: true,
     editLinkText: 'Help us improve this page!',
@@ -14,13 +14,13 @@ module.exports = {
       ['/docs/ch1', 'Chapter 1: Getting your Particle Argon online'],
       [
         '/docs/ch2',
-        'Chapter 2: Working with Particle Workbench, primitives & BLE'
+        'Chapter 2: Working with Particle Workbench, Primitives & the Device Cloud'
       ],
-      ['/docs/ch3', 'Chapter 3: On-Device Debugging and integrations'],
+      ['/docs/ch3', 'Chapter 3: Integrations & Azure IoT Central'],
       ['/docs/extra', 'Extra: Going Even Further!']
     ]
   },
-  title: 'Particle Accelerate Workshop',
+  title: 'Particle & Azure Workshop',
   description:
     'Workshops designed to teach the basics of IoT development with the Particle ecosystem & the Particle Argon'
 };
