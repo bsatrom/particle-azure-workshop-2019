@@ -62,7 +62,7 @@ curl https://api.particle.io/v1/devices\?access_token\=<your token>
 4.  Let's call the `toggleLed` function using the Device Cloud API. Type the following, again replacing the text below in `< >` with your information.
 
 ```bash
-curl https://api.particle.io/v1/devices/<device id>/toggleB \
+curl https://api.particle.io/v1/devices/<device id>/toggleLED \
      -d access_token=<your token>
 ```
 
@@ -81,17 +81,21 @@ In this section, you'll explore Azure IoT Central, create a middleware app to br
 
 ![](./images/04/azureacct.png)
 
-2.  In the dashboard, click "Create a resource." Then click "Internet of Things," and "IoT Central Application" at the top of the list.
+2.  Navigate to the [Build Your IoT Application](https://apps.azureiotcentral.com/build) section of IoT Central and select the "Custom App" template.
 
-![](./images/04/centrallist.png)
+![](./images/04/centralbuild.png)
 
-3. Give the IoT Central Application an name and URL (both must be globally unique). Then, select a subscription, select or create a resource group, choose a pricing tier, "Custom application" for the template, and East US for the location. Finally, click "Create" and wait for the deployment to complete.
+3. Give the IoT Central Application a name and URL (both must be globally unique). Then, select "Custom application" for the application template,  choose a pricing tier, select a subscription, and choose "United States" for the location. Finally, click "Create" and wait for the deployment to complete.
 
-![](./images/04/createcentralapp.png)
+![](./images/04/centralcreate.png)
 
-4. When the deployment completes, click the "Go to resource" button in the notification window.
+4. When the deployment completes, you will be navigated to the newly deployed IoT Central Instance.
 
-5. Click the URL for your IoT Central Application to open it in a new tab.
+![](./images/04/centralinstance.png)
+
+5. If you need to find the url to your IoT Central instance, you can view a list of all of the IoT Central instances for your subscription at https://apps.azureiotcentral.com/myapps
+
+![](./images/04/centralmyapps.png)
 
 ### Adding Device Telemetry and Commands
 
