@@ -3,10 +3,10 @@
 | **Project Goal**            | Use Particle Integrations to connect your app to Azure IoT Central.                                                                                        |
 | --------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
 | **What you’ll learn**       | Working with Particle Integrations, Integrating Particle projects with Azure IoT Central |
-| **Tools you’ll need**       | Particle Workbench, an [Azure](https://portal.azure.com) account, a Particle Argon, and the Grove Starter Kit for Particle Mesh, a Particle Debugger.                                                                                                            |
+| **Tools you’ll need**       | Particle Workbench, an [Azure](https://portal.azure.com?WT.mc_id=webinar-particle-pdecarlo) account, a Particle Argon, and the Grove Starter Kit for Particle Mesh, a Particle Debugger.                                                                                                            |
 | **Time needed to complete** | 60 minutes                                                                                                                                                                |
 
-In this session, you're going to explore the power of Particle integrations, integrate your project with Microsoft's Azure IoT Central and build dashboards to visualize your data. If you get stuck at any point during this session, [click here for the completed, working source](TODO).
+In this session, you're going to explore the power of Particle integrations, integrate your project with Microsoft's Azure IoT Central and build dashboards to visualize your data. If you get stuck at any point during this session, [click here for the completed, working source](https://github.com/bsatrom/particle-azure-workshop-2019/blob/master/labs/lab3/src/lab3.cpp).
 
 First, let's take a brief look at the Particle CLI and Device Cloud API.
 
@@ -77,11 +77,11 @@ In this section, you'll explore Azure IoT Central, create a middleware app to br
 
 ### Setting up Azure IoT Central
 
-1.  Sign up for an [Azure Account](https://azure.microsoft.com/en-us/get-started/), or sign in if you already have one.
+1.  Sign up for an [Azure Account](https://azure.microsoft.com/en-us/get-started?WT.mc_id=webinar-particle-pdecarlo), or sign in if you already have one.
 
 ![](./images/04/azureacct.png)
 
-2.  Navigate to the [Build Your IoT Application](https://apps.azureiotcentral.com/build) section of IoT Central and select the "Custom App" template.
+2.  Navigate to the [Build Your IoT Application](https://apps.azureiotcentral.com/build?WT.mc_id=webinar-particle-pdecarlo) section of IoT Central and select the "Custom App" template.
 
 ![](./images/04/centralbuild.png)
 
@@ -93,7 +93,7 @@ In this section, you'll explore Azure IoT Central, create a middleware app to br
 
 ![](./images/04/centralinstance.png)
 
-5. If you need to find the url to your IoT Central instance, you can view a list of all of the IoT Central instances for your subscription at https://apps.azureiotcentral.com/myapps
+5. If you need to find the url to your IoT Central instance, you can view a list of all of the IoT Central instances for your subscription at [https://apps.azureiotcentral.com/myapps](https://apps.azureiotcentral.com/myapps?WT.mc_id=webinar-particle-pdecarlo)
 
 ![](./images/04/centralmyapps.png)
 
@@ -338,7 +338,16 @@ To build dashboard visualizations for our Particle Device, you'll need to edit t
 
 <hr/>
 
-**Congratulations! You've completed this workshop. Now you're a Particle Master! Take a moment to pat yourself on the back and bask in your newfound IoT-commandery. And if you want to take your exploration further, click the "Extra" link below!**
+**Congratulations! You've completed this workshop. Now you're a Particle Master! Take a moment to pat yourself on the back and bask in your newfound IoT-commandery.**
 
+To learn more about Azure IoT Central, check out the official documentation:
+* [What is IoT Central?](https://docs.microsoft.com/en-us/azure/iot-central/preview/overview-iot-central?WT.mc_id=webinar-particle-pdecarlo)
+* [What are Application Templates?](https://docs.microsoft.com/en-us/azure/iot-central/core/concepts-app-templates?WT.mc_id=webinar-particle-pdecarlo)
+* [Azure IoT Central Architecture](https://docs.microsoft.com/en-us/azure/iot-central/preview/concepts-architecture?WT.mc_id=webinar-particle-pdecarlo)
+* [Creating an Azure IoT Central Application](https://docs.microsoft.com/en-us/azure/iot-central/preview/quick-deploy-iot-central?WT.mc_id=webinar-particle-pdecarlo)
+* [Define a Device type and Add a Device](https://docs.microsoft.com/en-us/azure/iot-central/preview/howto-set-up-template?WT.mc_id=webinar-particle-pdecarlo)
+* [Monitor your Devices](https://docs.microsoft.com/en-us/azure/iot-central/preview/tutorial-create-telemetry-rules?WT.mc_id=webinar-particle-pdecarlo)
 
-**BEFORE YOU GO** you'd love it if you could provide feedback on this workshop. Please visit [this link](https://particleiot.typeform.com/to/JiF8xM) to rate your experience.
+**And if you want to take your exploration further, click the "Extra" link below!**
+
+**BEFORE YOU GO** we'd love it if you could provide feedback on this workshop. Please visit [this link](https://particleiot.typeform.com/to/JiF8xM) to rate your experience.
